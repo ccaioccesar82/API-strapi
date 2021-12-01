@@ -1,0 +1,525 @@
+
+[
+  {
+    "_id": "61944a5de513a91d004dfb47",
+    "title": "landing pages",
+    "slug": "landing-pages",
+    "published_at": "2021-11-17T03:19:02.859Z",
+    "sections": [
+      {
+        "__component": "section.content-section",
+        "_id": "61945b949ac5651c30731ce0",
+        "title": "NEWS COVERAGE AND SOME SURPRISES",
+        "description": "<p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p><p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>",
+        "metadata": {
+          "background": false,
+          "_id": "61945b949ac5651c30731ce1",
+          "name": "introdução",
+          "section_id": "sectionone",
+          "__v": 0,
+          "id": "61945b949ac5651c30731ce1"
+        },
+        "__v": 1,
+        "id": "61945b949ac5651c30731ce0"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "61945c2f9ac5651c30731ceb",
+        "title": "MY GRID",
+        "description": "Uma breve descrição.",
+        "text_grid": [
+          {
+            "_id": "61945c2f9ac5651c30731cec",
+            "title": "Teste 1",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "61945c2f9ac5651c30731cec"
+          },
+          {
+            "_id": "61945c2f9ac5651c30731ced",
+            "title": "Teste 2",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "61945c2f9ac5651c30731ced"
+          },
+          {
+            "_id": "61946a709f6f6c1e0067112c",
+            "title": "Teste 3",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maior",
+            "__v": 0,
+            "id": "61946a709f6f6c1e0067112c"
+          }
+        ],
+        "metadata": {
+          "background": true,
+          "_id": "61945c309ac5651c30731cf1",
+          "name": "primeira grid",
+          "section_id": "sectiontwo",
+          "__v": 0,
+          "id": "61945c309ac5651c30731cf1"
+        },
+        "meta_data": [
+
+        ],
+        "__v": 2,
+        "id": "61945c2f9ac5651c30731ceb"
+      },
+      {
+        "__component": "section.image-grid",
+        "_id": "6194682c9f6f6c1e00671105",
+        "metadata": {
+          "background": false,
+          "_id": "6194682c9f6f6c1e00671106",
+          "name": "galeria",
+          "section_id": "sectionthree",
+          "__v": 0,
+          "id": "6194682c9f6f6c1e00671106"
+        },
+        "image": [
+          {
+            "_id": "6194682d9f6f6c1e00671108",
+            "__v": 0,
+            "images": {
+              "_id": "61944956e513a91d004dfb44",
+              "name": "https://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "360x360_r_1_16aea2d27b",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 35.32,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637108105/360x360_r_1_16aea2d27b.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_16aea2d27b",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_16aea2d27b",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 7.59,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637108106/thumbnail_360x360_r_1_16aea2d27b.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_16aea2d27b",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [
+
+              ],
+              "createdAt": "2021-11-17T00:14:14.026Z",
+              "updatedAt": "2021-11-17T02:53:09.178Z",
+              "__v": 0,
+              "id": "61944956e513a91d004dfb44"
+            },
+            "id": "6194682d9f6f6c1e00671108"
+          },
+          {
+            "_id": "6194682d9f6f6c1e00671109",
+            "__v": 0,
+            "images": {
+              "_id": "61944867e513a91d004dfb41",
+              "name": "https://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "flores",
+              "caption": "",
+              "hash": "360x360_r_1_fb96a9e839",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 14.83,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637107866/360x360_r_1_fb96a9e839.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_fb96a9e839",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_fb96a9e839",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 4.67,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637107867/thumbnail_360x360_r_1_fb96a9e839.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_fb96a9e839",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [
+
+              ],
+              "createdAt": "2021-11-17T00:10:17.059Z",
+              "updatedAt": "2021-11-17T02:53:09.178Z",
+              "__v": 0,
+              "id": "61944867e513a91d004dfb41"
+            },
+            "id": "6194682d9f6f6c1e00671109"
+          },
+          {
+            "_id": "6194682d9f6f6c1e0067110a",
+            "__v": 0,
+            "images": {
+              "_id": "619448d3e513a91d004dfb42",
+              "name": "https://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "360x360_r_1_b5a03f52e1",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 18.45,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637107974/360x360_r_1_b5a03f52e1.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_b5a03f52e1",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_b5a03f52e1",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 4.5,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637107975/thumbnail_360x360_r_1_b5a03f52e1.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_b5a03f52e1",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [
+
+              ],
+              "createdAt": "2021-11-17T00:12:03.410Z",
+              "updatedAt": "2021-11-17T02:53:09.178Z",
+              "__v": 0,
+              "id": "619448d3e513a91d004dfb42"
+            },
+            "id": "6194682d9f6f6c1e0067110a"
+          },
+          {
+            "_id": "6194682d9f6f6c1e0067110b",
+            "__v": 0,
+            "images": {
+              "_id": "619448fee513a91d004dfb43",
+              "name": "https://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "360x360_r_1_94063cc365",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 57.47,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637108017/360x360_r_1_94063cc365.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_94063cc365",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_94063cc365",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 12.92,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637108018/thumbnail_360x360_r_1_94063cc365.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_94063cc365",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [
+
+              ],
+              "createdAt": "2021-11-17T00:12:46.093Z",
+              "updatedAt": "2021-11-17T02:53:09.178Z",
+              "__v": 0,
+              "id": "619448fee513a91d004dfb43"
+            },
+            "id": "6194682d9f6f6c1e0067110b"
+          },
+          {
+            "_id": "6194682d9f6f6c1e0067110c",
+            "__v": 0,
+            "images": {
+              "_id": "6194497be513a91d004dfb45",
+              "name": "https://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "360x360_r_1_a5288efb30",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 27.16,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637108142/360x360_r_1_a5288efb30.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_a5288efb30",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_a5288efb30",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 6.14,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637108143/thumbnail_360x360_r_1_a5288efb30.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_a5288efb30",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [
+
+              ],
+              "createdAt": "2021-11-17T00:14:51.075Z",
+              "updatedAt": "2021-11-17T02:53:09.178Z",
+              "__v": 0,
+              "id": "6194497be513a91d004dfb45"
+            },
+            "id": "6194682d9f6f6c1e0067110c"
+          },
+          {
+            "_id": "6194682d9f6f6c1e0067110d",
+            "__v": 0,
+            "images": {
+              "_id": "61944991e513a91d004dfb46",
+              "name": "https://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "360x360_r_1_ccfffee399",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 29.95,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637108164/360x360_r_1_ccfffee399.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_ccfffee399",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_ccfffee399",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 8.05,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637108165/thumbnail_360x360_r_1_ccfffee399.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_ccfffee399",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [
+
+              ],
+              "createdAt": "2021-11-17T00:15:13.400Z",
+              "updatedAt": "2021-11-17T02:53:09.178Z",
+              "__v": 0,
+              "id": "61944991e513a91d004dfb46"
+            },
+            "id": "6194682d9f6f6c1e0067110d"
+          }
+        ],
+        "__v": 2,
+        "description": "Uma breve descrição.",
+        "title": "GALLERY",
+        "id": "6194682c9f6f6c1e00671105"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "61946d959f6f6c1e00671188",
+        "text_grid": [
+          {
+            "_id": "61946d959f6f6c1e00671189",
+            "title": "Teste 1",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "61946d959f6f6c1e00671189"
+          },
+          {
+            "_id": "61946d959f6f6c1e0067118a",
+            "title": "Teste 2",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "61946d959f6f6c1e0067118a"
+          },
+          {
+            "_id": "61946d959f6f6c1e0067118b",
+            "title": "Teste 3",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.",
+            "__v": 0,
+            "id": "61946d959f6f6c1e0067118b"
+          }
+        ],
+        "metadata": {
+          "background": false,
+          "_id": "61946d959f6f6c1e0067118f",
+          "section_id": "sectionfour",
+          "name": "segunda grid",
+          "__v": 0,
+          "id": "61946d959f6f6c1e0067118f"
+        },
+        "__v": 2,
+        "description": "Uma breve descrição.",
+        "title": "MY GRID",
+        "id": "61946d959f6f6c1e00671188"
+      },
+      {
+        "__component": "section.content-section",
+        "_id": "619474979b5a0d14f42f8f8c",
+        "title": "PRICING",
+        "description": "<p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p><p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p><figure class=\"table\"><table><thead><tr><th>Title 1</th><th>Title 2</th><th>Title 3</th><th>Title 4</th><th>Title 5</th></tr></thead><tbody><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>Content 1</td><td>Content 2</td><td>Content 3</td><td>Content 3</td><td>Content 3</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Testando</td></tr></tbody></table></figure>",
+        "metadata": {
+          "background": false,
+          "_id": "619474979b5a0d14f42f8f8e",
+          "name": "preços",
+          "section_id": "sectionfive",
+          "__v": 0,
+          "id": "619474979b5a0d14f42f8f8e"
+        },
+        "__v": 1,
+        "id": "619474979b5a0d14f42f8f8c"
+      },
+      {
+        "__component": "section.section-two-column",
+        "_id": "619474979b5a0d14f42f8f8d",
+        "title": "JANUARY BRINGS US FIREFOX 85",
+        "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
+        "metadata": {
+          "background": true,
+          "_id": "619474979b5a0d14f42f8f8f",
+          "name": "contato",
+          "section_id": "sectionsix",
+          "__v": 0,
+          "id": "619474979b5a0d14f42f8f8f"
+        },
+        "__v": 1,
+        "image": {
+          "_id": "619473c99b5a0d14f42f8f8b",
+          "name": "javascript.svg",
+          "alternativeText": "",
+          "caption": "",
+          "hash": "javascript_eca9c9ecdc",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 30.31,
+          "url": "https://res.cloudinary.com/dopgxq2ux/image/upload/v1637118970/javascript_eca9c9ecdc.svg",
+          "provider_metadata": {
+            "public_id": "javascript_eca9c9ecdc",
+            "resource_type": "image"
+          },
+          "provider": "cloudinary",
+          "width": 1030,
+          "height": 730,
+          "related": [
+            "619474979b5a0d14f42f8f8d"
+          ],
+          "createdAt": "2021-11-17T03:15:21.489Z",
+          "updatedAt": "2021-11-17T03:18:49.202Z",
+          "__v": 0,
+          "id": "619473c99b5a0d14f42f8f8b"
+        },
+        "id": "619474979b5a0d14f42f8f8d"
+      }
+    ],
+    "menus": {
+      "_id": "61945afe9ac5651c30731cd2",
+      "Logo": "Logo",
+      "menu_tags": [
+        {
+          "_id": "61945afe9ac5651c30731cd3",
+          "link_text": "introdução",
+          "link": "#sectionone",
+          "__v": 0,
+          "id": "61945afe9ac5651c30731cd3"
+        },
+        {
+          "_id": "61945afe9ac5651c30731cd4",
+          "link_text": "primeira grid",
+          "link": "#sectiontwo",
+          "__v": 0,
+          "id": "61945afe9ac5651c30731cd4"
+        },
+        {
+          "_id": "61945afe9ac5651c30731cd5",
+          "link_text": "galeria",
+          "link": "#sectionthree",
+          "__v": 0,
+          "id": "61945afe9ac5651c30731cd5"
+        },
+        {
+          "_id": "61945afe9ac5651c30731cd6",
+          "link_text": "segunda grid",
+          "link": "#sectionfour",
+          "__v": 0,
+          "id": "61945afe9ac5651c30731cd6"
+        },
+        {
+          "_id": "61945afe9ac5651c30731cd7",
+          "link_text": "preços",
+          "link": "#sectionfive",
+          "__v": 0,
+          "id": "61945afe9ac5651c30731cd7"
+        },
+        {
+          "_id": "61945afe9ac5651c30731cd8",
+          "link_text": "contato",
+          "link": "#sectionsix",
+          "__v": 0,
+          "id": "61945afe9ac5651c30731cd8"
+        }
+      ],
+      "__v": 1,
+      "id": "61945afe9ac5651c30731cd2"
+    },
+    "footer_page": {
+      "_id": "6194749e9b5a0d14f42f8fb0",
+      "footer": "<p><a href=\"https://github.com/ccaioccesar82\">Feito com ❤ por &nbsp;Caio Correia</a></p>",
+      "__v": 0,
+      "id": "6194749e9b5a0d14f42f8fb0"
+    },
+    "createdAt": "2021-11-17T00:18:37.863Z",
+    "updatedAt": "2021-11-17T03:19:04.574Z",
+    "__v": 0,
+    "id": "61944a5de513a91d004dfb47"
+  }
+]

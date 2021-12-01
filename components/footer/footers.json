@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "name": "footers",
+    "icon": "caret-square-down"
+  },
+  "options": {},
+  "attributes": {
+    "footer": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

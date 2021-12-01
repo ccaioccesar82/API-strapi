@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_menu_menus",
+  "info": {
+    "name": "Menu",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "string",
+      "required": true
+    },
+    "menu_tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-tags"
+    }
+  }
+}

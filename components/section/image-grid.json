@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_image_grids",
+  "info": {
+    "name": "image-grid",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata",
+      "required": true
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
